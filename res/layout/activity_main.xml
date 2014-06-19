@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_width="fill_parent">
+
+    <Button
+        android:id="@+id/CheckNew"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:bufferType="normal"
+        android:text="@string/check_new" />
+  	
+    <Button
+        android:id="@+id/CheckStatus"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:bufferType="normal"
+        android:text="@string/check_status" />
+
+    <Button
+        android:id="@+id/ShowAlert"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:bufferType="normal"
+        android:text="@string/show_alert" />
+
+    <TextView
+        android:id="@+id/StatusTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+    
+    <ListView android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />"
+    
+
+</TableLayout>
