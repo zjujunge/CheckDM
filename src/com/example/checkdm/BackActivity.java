@@ -25,13 +25,13 @@ public class BackActivity extends Activity {
                 "Cancel",
                 null);
     }
-    
+
     @Override
     protected void onStart() {
         // TODO Auto-generated method stub
         super.onStart();
     }
-    
+
     void showAlertWithLink(String title, String message,
             String positive, DialogInterface.OnClickListener poslistener,
             String neutral, DialogInterface.OnClickListener neulistner,
@@ -53,7 +53,7 @@ public class BackActivity extends Activity {
         alertDialog.getWindow().setType(WindowManager.LayoutParams.TYPE_SYSTEM_ALERT);
 
         alertDialog.show();
-        
+
         // Make the textview clickable. Must be called after show()
         ((TextView)alertDialog.findViewById(android.R.id.message)).setMovementMethod(
                 LinkMovementMethod.getInstance());

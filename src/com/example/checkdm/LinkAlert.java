@@ -15,15 +15,15 @@ import android.widget.TextView;
 public class LinkAlert {
 
     private Context mContext;
-    
+
     public LinkAlert(Context context) {
         mContext = context;
     }
-    
+
     public void showAlert() {
         new MyThread().start();
     }
-    
+
     void showAlertWithLink(String title, String message,
             String positive, DialogInterface.OnClickListener poslistener,
             String neutral, DialogInterface.OnClickListener neulistner,
@@ -44,14 +44,14 @@ public class LinkAlert {
         alertDialog.getWindow().setType(WindowManager.LayoutParams.TYPE_SYSTEM_ALERT);
 
         alertDialog.show();
-        
+
         // Make the textview clickable. Must be called after show()
 //        ((TextView)alertDialog.findViewById(android.R.id.message)).setMovementMethod(
 //                LinkMovementMethod.getInstance());
         TextView textView = (TextView)alertDialog.findViewById(android.R.id.message);
         textView.setMovementMethod(LinkMovementMethod.getInstance());
     }
-    
+
     private class MyThread extends Thread {
         @Override
         public void run() {
@@ -64,7 +64,7 @@ public class LinkAlert {
 //                    null, null,
 //                    "Cancel",
 //                    null);
-//            
+//
 //            Looper.loop();
             Log.d("LinkAlert", "run LinkAlert");
             Context context = mContext;

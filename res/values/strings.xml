@@ -7,7 +7,7 @@
     <string name="check_new">Check New</string>
     <string name="check_status">Check Status</string>
     <string name="show_alert">Show Alert</string>
-    
+
     <string name="soft_info">Status of Software Update</string>
     <string name="soft_update">Software Update</string>
     <string name="soft_install">Install Package</string>

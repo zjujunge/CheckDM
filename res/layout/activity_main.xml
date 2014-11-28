@@ -10,7 +10,7 @@
         android:layout_width="fill_parent"
         android:bufferType="normal"
         android:text="@string/check_new" />
-  	
+
     <Button
         android:id="@+id/CheckStatus"
         android:layout_height="wrap_content"
@@ -30,10 +30,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hello_world" />
-    
-    <ListView android:id="@+id/listView"
+
+    <ListView android:id="@+id/mylistView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />"
-    
+
 
 </TableLayout>

@@ -17,9 +17,9 @@
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
 
-	<style name="Transparent">
-		<item name="android:windowBackground">@color/transparent</item>
-		<item name="android:windowIsTranslucent">true</item>
-	</style>
+    <style name="Transparent">
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
 
 </resources>
